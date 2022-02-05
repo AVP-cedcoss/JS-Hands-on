@@ -1,5 +1,6 @@
-// Change code below this line
-const someAdjective = "Awesome";
-let myStr = "Learning to code is ";
-myStr += someAdjective;
-console.log(myStr);
+// Setup
+let lastNameLength = 0;
+const lastName = "Lovelace";
+
+// Only change code below this line
+lastNameLength = lastName.length;
