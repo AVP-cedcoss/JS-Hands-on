@@ -14,8 +14,9 @@ function caseInSwitch(val) {
   
       case 4: answer = "delta";
       break;
+
+      default: answer = "theta";
     }
-  
   
     // Only change code above this line
     return answer;
