@@ -1,4 +1,4 @@
-let myVar = 87;
+const ourDecimal = 5.7;
 
 // Only change code below this line
-myVar--;
+let myDecimal = 3.14
