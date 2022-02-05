@@ -1,11 +1,19 @@
-function orderMyLogic(val) {
-    if (val < 5) {
-      return "Less than 5";
-    } else if (val < 10) {
-      return "Less than 10";
-    } else {
-      return "Greater than or equal to 10";
-    }
+function testSize(num) {
+    // Only change code below this line
+    var temp;
+    if (num < 5)
+      temp = "Tiny";
+    else if (num < 10)
+      temp = "Small";
+    else if (num < 15)
+      temp = "Medium";
+    else if (num < 20)
+      temp = "Large";
+    else
+      temp = "Huge";
+  
+    return temp;
+    // Only change code above this line
   }
   
-  orderMyLogic(7);
+  testSize(7);
